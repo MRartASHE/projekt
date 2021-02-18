@@ -1,0 +1,17 @@
+﻿<Window x:Class="film.filmyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:film"
+        mc:Ignorable="d"
+        Title="Lista filmów" Height="400" Width="600" Background="Gainsboro">
+    <Grid>
+        <Label Content="    Tytuł        Data produkcji                Nagordy             Kategoria             Aktor główny
+               Reżyser" Height="30" Margin="10,10,9.6,330.4"/>
+        <RichTextBox Name="listaFilmow" Margin="10,43,9.6,113.4" IsReadOnly="True" FontSize="10" FontWeight="Bold"
+                     Padding="10, 0, 10, 0"/>
+        <Button Name="przyciskWyjscie" Content="Wyjście" Margin="238,305,238.6,10.4" Background="MistyRose"
+                FontSize="18" FontWeight="Bold" Click="przyciskWyjscie_Click"/>
+    </Grid>
+</Window>
